@@ -1,0 +1,25 @@
+(function () {
+  var webimMainUrl = null;
+  if (typeof webim != 'undefined' && typeof webim.domain != 'undefined') {
+      webimMainUrl = 'https://' + webim.domain + '/webim';
+  } else {
+    var a = document.getElementsByTagName('a');
+    var i = a.length;
+    while (--i >= 0) {
+        if (a[i].rel === 'webim' || (a[i].href != null && a[i].href.indexOf('/webim/client.php') > 0)) {
+            webimMainUrl = a[i].href.substring(0, a[i].href.indexOf('/client.php'));
+        }
+    }
+  }
+
+  if (typeof window.webimAlreadyLoaded == 'undefined' ) {//where?
+      window.webimAlreadyLoaded = true;
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.src = webimMainUrl + '/js/v/visitor.js.php';
+      s.charset = 'utf-8';
+      document.getElementsByTagName('head')[0].appendChild(s);
+  } else {
+      alert('Для получения максимальной отдачи от системы Вебим');
+  }
+})();

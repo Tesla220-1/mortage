@@ -1,0 +1,255 @@
+webimApplyServerSideSettings({
+    "accountBlocked": false,
+    "locationSettings": {
+        "button": {
+            "kind": "html",
+            "slider": {
+                "position": "left",
+                "top": 150,
+                "width": 261,
+                "alwaysVisibleWidth": 30
+            },
+            "corner": {
+                "position": "right-bottom"
+            },
+            "html": {
+                "style": {
+                    "background-color": "#3CC",
+                    "border-color": "#FFF"
+                },
+                "draggable": "N",
+                "position": {
+                    "top": null,
+                    "left": null,
+                    "bottom": "0%",
+                    "right": "0%"
+                }
+            },
+            "name": "html",
+            "offlineEnabled": "Y",
+            "channels": [
+                "997e6fc91607449f9105877dfa2ecdfc",
+                "777azino666"
+            ],
+            "channel": {
+                "default": {
+                    "style": {}
+                },
+                "webim": {
+                    "style": {
+                        "background-color": "#3CC",
+                        "border-color": "#FFF"
+                    }
+                }
+            }
+        },
+        "invitation": {
+            "dontShow": false,
+            "theme": "static",
+            "position": "bottom-right",
+            "timeout": 90000,
+            "avatar": null,
+            "bg": null,
+            "fontColor": null
+        },
+        "chat": {
+            "lang": "ru",
+            "departmentKey": "cc",
+            "chatEnterFirstMessage": "Y",
+            "defaultLayout": {
+                "size": {
+                    "height": 460,
+                    "width": 380
+                },
+                "position": {
+                    "right": 10,
+                    "bottom": 10
+                }
+            },
+            "hintsEnabled": "N",
+            "visitorFields": {
+                "def": {
+                    "name": {
+                        "presence": "mandatory",
+                        "validation": {
+                            "maxLength": 64
+                        }
+                    },
+                    "email": {
+                        "presence": "none",
+                        "validation": {
+                            "type": "email"
+                        }
+                    },
+                    "phone": {
+                        "presence": "mandatory",
+                        "validation": {
+                            "mask": "+7 (XXX) XXX-XX-XX"
+                        }
+                    },
+                    "youmagic_number": {
+                        "presence": "none"
+                    },
+                    "icq": {
+                        "presence": "none"
+                    },
+                    "login": {
+                        "presence": "none"
+                    },
+                    "company": {
+                        "presence": "none"
+                    },
+                    "passport_number": {
+                        "presence": "none"
+                    },
+                    "codeword": {
+                        "presence": "none"
+                    }
+                },
+                "firstQuestion": [],
+                "offlineMode": {
+                    "email": {
+                        "presence": "mandatory",
+                        "validation": {
+                            "type": "email"
+                        }
+                    }
+                },
+                "contactsRequest": [],
+                "callbackHunter": {
+                    "phone": {
+                        "presence": "mandatory",
+                        "validation": {
+                            "mask": "+7 (XXX) XXX-XX-XX"
+                        }
+                    }
+                }
+            },
+            "visitorFieldLabels": {
+                "name": null,
+                "phone": null,
+                "email": null,
+                "icq": null,
+                "login": null,
+                "company": null,
+                "passport_number": null,
+                "codeword": null
+            },
+            "logo": null,
+            "proposeToRateBeforeClose": "Y",
+            "showSelectModeMenu": "N",
+            "hideMenu": "N",
+            "messageDateFormat": "DD.MM",
+            "availableDepartmentKeys": [],
+            "headerColor": null,
+            "headerGradientColor": null,
+            "bgColor": null,
+            "buttonColor": null,
+            "buttonGradientColor": null,
+            "chooseDepartment": null,
+            "departmentsSort": null,
+            "callbackHunterAvailableInOffline": null
+        },
+        "styles": {
+            "header": {
+                "background": "rgba(79,186,70,77)",
+                "gradient": ""
+            },
+            "body": {
+                "background": ""
+            },
+            "button": {
+                "background": "",
+                "gradient": ""
+            },
+            "invitation-body": {
+                "background": null,
+                "color": null,
+                "font-size": null
+            }
+        },
+        "misc": {
+            "fixFlashWmode": false
+        },
+        "resources": {
+            "leavemessage-descr": null,
+            "first_question-descr": "Вам ответит первый освободившийся оператор.",
+            "chat-operator-default_title": "Сотрудник банка"
+        }
+    },
+    "accountConfig": {
+        "calls": false,
+        "multilang": false,
+        "chatting_timer": false,
+        "google_analytics": true,
+        "yandex_metrika_counter_id": null,
+        "teleport": true,
+        "v2chat_calls_enabled": false,
+        "v2chat_call_url": null,
+        "client_php_url": null,
+        "hide_referrer": false,
+        "force_visitor_https": false,
+        "visitor_tracking": true,
+        "force_visitor_disable": false,
+        "visitor_enabling_probability": 100,
+        "default_lang": "ru",
+        "rate_operator": true,
+        "allowed_upload_file_types": "png, jpg, jpeg, doc, rtf, gif, txt, pdf, docx, webp, oga, ogg, mp3, wav, mp4, mov, aac, odt, amr, har, jpe",
+        "callback_hunter_enabled": false,
+        "visitor_websockets": false,
+        "visitor_upload_file": true,
+        "operator_check_status_online": 300,
+        "visitor_hints_api_endpoint": null,
+        "file_url_expiring_timeout_for_web_and_mobile": 300,
+        "operator_status_timer": false,
+        "visitor_message_editing": true,
+        "web_and_mobile_quoting": true,
+        "offline_chat_processing": true,
+        "max_visitor_upload_file_size": 10
+    },
+    "accountFields": [],
+    "ainviteRules": [],
+    "tariffOptions": {
+        "hide_poweredby_link": false,
+        "chat_colors": true,
+        "push_url": true,
+        "operator_file_upload": true,
+        "invitation": true,
+        "offline_message": true
+    },
+    "channels": [
+        {
+            "name": "ВК",
+            "page_id": 29049863,
+            "type": "vk",
+            "id": "c906d7d7ad0a4bf3b4fc5225cd9fcee0"
+        },
+        {
+            "name": "w",
+            "type": "wa_hsm",
+            "id": "ea7d44faec8740aa9c21e5b10adc9d93"
+        },
+        {
+            "name": "lalal",
+            "type": "wa_hsm",
+            "id": "997e6fc91607449f9105877dfa2ecdfc"
+        },
+        {
+            "name": "WA",
+            "type": "infobip_whatsapp",
+            "id": "777azino666"
+        },
+        {
+            "name": "FB",
+            "type": "fb",
+            "page_id": "195041593889033",
+            "id": "e2c3a72e17474da0b32cdeb97a76e7ef"
+        },
+        {
+            "name": "канал WhatsApp",
+            "page_id": "78002009929",
+            "type": "whatsapp_infobip",
+            "id": "e6b112bc12b642f28f922d812de5932e"
+        }
+    ]
+});
