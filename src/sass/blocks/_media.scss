@@ -1,0 +1,82 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container  {
+        width: 720px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container  {
+        width: 540px;
+    }
+    .mortgage-header {
+        flex-wrap: wrap;
+        &__item {
+            &:last-child {
+                margin-top: 30px;
+            }
+        }
+        &__title {
+            font-size: 24px;
+            line-height: 33px;
+        }
+        &__subtitle {
+            margin-bottom: 20px;
+        }
+    }
+
+    .loan-conditions {
+        &__item {
+            margin-right: 25px;
+        }
+        &__item-description {
+            width: calc(100%-220px);
+        }
+    }
+    
+    .mortgage-refinancing {
+        margin-top: 50px;
+        &__title {
+            font-size: 27px;
+            line-height: 37px;
+        }
+        &__subtitle {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container  {
+        width:100%;
+    }
+    .loan-conditions {
+        margin-top: 50px;
+        &__title {
+            font-size: 23px;
+            line-height: 30px;
+        }
+        &__wrapper {
+            margin-top: 20px;
+        }
+        &__row {
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        &__item {
+            font-size: 16px;
+            font-weight: bold;
+            width: 100%;
+        }
+        &__item-description {
+            margin-top: 10px;
+            width: 100%;
+        }
+    }
+}
+
